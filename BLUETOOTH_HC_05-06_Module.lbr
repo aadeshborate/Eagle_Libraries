@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BLUETOOTH_HC05" urn="urn:adsk.eagle:footprint:15785487/2">
+<description>&lt;p&gt;&lt;b&gt; HC 05 /06 Bluetooth Module
+
+&lt;p&gt;&lt;b&gt;Created by Aadesh Borate
+&lt;p&gt;&lt;b&gt;Features  :
+&lt;/b&gt;
+
+&lt;ul&gt; &lt;li&gt;&lt;P&gt; Input voltage  : 5V
+&lt;li&gt;&lt;P&gt;Operating voltage  : 5V
+&lt;li&gt;&lt;P&gt;Contineous output current : 30 mA
+&lt;li&gt;&lt;P&gt;Range : 100 metre
+&lt;li&gt;&lt;p&gt; Serial communication
+&lt;li&gt;&lt;p&gt;Follows IEEE 802.15.1 standardized protocol
+&lt;li&gt;&lt;p&gt;Uses Frequency-Hopping Spread spectrum (FHSS)
+
+&lt;/ul&gt;
+&lt;P&gt;&lt;b&gt;Buy this module at
+&lt;a href="https://robu.in/product/hc-05-6pin-bluetooth-module-with-button/"&gt; Robu.in&lt;/a&gt;</description>
+<wire x1="-11.43" y1="7.62" x2="-11.43" y2="6.604" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="6.604" x2="-11.43" y2="5.588" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="5.588" x2="-11.43" y2="4.064" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="4.064" x2="-11.43" y2="3.048" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="3.048" x2="-11.43" y2="1.524" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="1.524" x2="-11.43" y2="0.508" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="0.508" x2="-11.43" y2="-1.016" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="-1.016" x2="-11.43" y2="-2.032" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="-2.032" x2="-11.43" y2="-3.556" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="-3.556" x2="-11.43" y2="-4.572" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="-4.572" x2="-11.43" y2="-6.096" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="-6.096" x2="-11.43" y2="-7.112" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="-7.112" x2="-11.43" y2="-8.128" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="-8.128" x2="-10.414" y2="-8.128" width="0.3048" layer="21"/>
+<wire x1="-10.414" y1="-8.128" x2="-9.398" y2="-8.128" width="0.3048" layer="21"/>
+<wire x1="-9.398" y1="-8.128" x2="-8.382" y2="-8.128" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="-8.128" x2="25.146" y2="-8.128" width="0.3048" layer="21"/>
+<wire x1="25.146" y1="-8.128" x2="25.146" y2="-6.604" width="0.3048" layer="21"/>
+<wire x1="25.146" y1="-6.604" x2="25.654" y2="-6.604" width="0.3048" layer="21"/>
+<wire x1="25.654" y1="-6.604" x2="25.654" y2="6.096" width="0.3048" layer="21"/>
+<wire x1="25.654" y1="6.096" x2="25.146" y2="6.096" width="0.3048" layer="21"/>
+<wire x1="25.146" y1="6.096" x2="25.146" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="25.146" y1="6.096" x2="25.146" y2="-6.604" width="0.3048" layer="21"/>
+<wire x1="25.146" y1="7.62" x2="-8.382" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="7.62" x2="-10.414" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="-10.414" y1="7.62" x2="-11.43" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="7.62" x2="-8.382" y2="6.604" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="6.604" x2="-8.382" y2="5.588" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="5.588" x2="-8.382" y2="4.064" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="4.064" x2="-8.382" y2="3.048" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="3.048" x2="-8.382" y2="1.524" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="1.524" x2="-8.382" y2="0.508" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="0.508" x2="-8.382" y2="-1.016" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="-1.016" x2="-8.382" y2="-2.032" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="-2.032" x2="-8.382" y2="-3.556" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="-3.556" x2="-8.382" y2="-4.572" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="-4.572" x2="-8.382" y2="-6.096" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="-6.096" x2="-8.382" y2="-7.112" width="0.3048" layer="21"/>
+<wire x1="-8.382" y1="-7.112" x2="-8.382" y2="-8.128" width="0.3048" layer="21"/>
+<wire x1="-10.414" y1="5.08" x2="-9.398" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="5.588" x2="-8.89" y2="6.604" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="7.112" x2="-10.414" y2="7.112" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="7.112" x2="-10.922" y2="6.604" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="4.064" x2="-10.922" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="3.048" x2="-10.414" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="2.54" x2="-9.398" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="3.048" x2="-8.89" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="4.064" x2="-9.398" y2="4.572" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="1.524" x2="-10.922" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="0.508" x2="-10.414" y2="0" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="0" x2="-9.398" y2="0" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="0.508" x2="-8.89" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="1.524" x2="-9.398" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="2.032" x2="-10.922" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-1.016" x2="-10.922" y2="-2.032" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-2.54" x2="-9.398" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-1.016" x2="-9.398" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-0.508" x2="-10.922" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-3.556" x2="-10.922" y2="-4.572" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-5.08" x2="-9.398" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-4.572" x2="-8.89" y2="-3.556" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-3.556" x2="-9.398" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-6.096" x2="-10.922" y2="-7.112" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-7.112" x2="-10.414" y2="-7.62" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-7.62" x2="-9.398" y2="-7.62" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="-7.62" x2="-8.89" y2="-7.112" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-7.112" x2="-8.89" y2="-6.096" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-6.096" x2="-9.398" y2="-5.588" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-5.588" x2="-10.922" y2="-6.096" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-5.334" x2="-5.08" y2="-7.112" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-7.112" x2="-4.826" y2="-7.366" width="0.2032" layer="21"/>
+<wire x1="-4.826" y1="-7.366" x2="-3.048" y2="-7.366" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="-7.366" x2="-2.794" y2="-7.112" width="0.2032" layer="21"/>
+<wire x1="-2.794" y1="-7.112" x2="-2.794" y2="-5.334" width="0.2032" layer="21"/>
+<wire x1="-2.794" y1="-5.334" x2="-3.048" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="-5.08" x2="-4.826" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="-4.826" y1="-5.08" x2="-5.08" y2="-5.334" width="0.2032" layer="21"/>
+<wire x1="-11.43" y1="7.6454" x2="-11.43" y2="7.62" width="0.2032" layer="51"/>
+<wire x1="-11.43" y1="7.62" x2="-11.43" y2="-8.128" width="0.2032" layer="51"/>
+<wire x1="-11.43" y1="-8.128" x2="25.146" y2="-8.128" width="0.2032" layer="51"/>
+<wire x1="25.146" y1="-8.128" x2="25.146" y2="-6.604" width="0.2032" layer="51"/>
+<wire x1="25.146" y1="-6.604" x2="25.654" y2="-6.604" width="0.2032" layer="51"/>
+<wire x1="25.654" y1="-6.604" x2="25.654" y2="6.096" width="0.2032" layer="51"/>
+<wire x1="25.654" y1="6.096" x2="25.146" y2="6.096" width="0.2032" layer="51"/>
+<wire x1="25.146" y1="6.096" x2="25.146" y2="7.62" width="0.2032" layer="51"/>
+<wire x1="25.146" y1="7.62" x2="-11.43" y2="7.62" width="0.2032" layer="51"/>
+<wire x1="-11.938" y1="8.128" x2="-11.938" y2="-8.636" width="0.2032" layer="39"/>
+<wire x1="-11.938" y1="-8.636" x2="26.162" y2="-8.636" width="0.2032" layer="39"/>
+<wire x1="26.162" y1="-8.636" x2="26.162" y2="8.128" width="0.2032" layer="39"/>
+<wire x1="26.162" y1="8.128" x2="-11.938" y2="8.128" width="0.2032" layer="39"/>
+<wire x1="25.146" y1="6.096" x2="4.318" y2="6.096" width="0.3048" layer="21"/>
+<wire x1="4.318" y1="6.096" x2="4.318" y2="-6.604" width="0.3048" layer="21"/>
+<wire x1="4.318" y1="-6.604" x2="25.146" y2="-6.604" width="0.3048" layer="21"/>
+<wire x1="-10.414" y1="7.112" x2="-10.414" y2="7.62" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="7.62" x2="-9.398" y2="7.62" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="7.62" x2="-9.398" y2="7.112" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="7.112" x2="-8.89" y2="6.604" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="6.604" x2="-8.382" y2="6.604" width="0.2032" layer="21"/>
+<wire x1="-8.382" y1="5.588" x2="-8.89" y2="5.588" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="5.588" x2="-9.398" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="5.08" x2="-9.398" y2="4.572" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="4.572" x2="-10.414" y2="4.572" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="5.588" x2="-11.43" y2="5.588" width="0.2032" layer="21"/>
+<wire x1="-11.43" y1="6.604" x2="-10.922" y2="6.604" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="6.604" x2="-10.922" y2="5.588" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="5.588" x2="-10.414" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="5.08" x2="-10.414" y2="4.572" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="4.572" x2="-10.922" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="4.064" x2="-11.43" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="-11.43" y1="3.048" x2="-10.922" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="2.54" x2="-10.414" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="2.032" x2="-9.398" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="2.032" x2="-9.398" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="2.54" x2="-8.89" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="3.048" x2="-8.382" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-8.382" y1="4.064" x2="-8.89" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="1.524" x2="-11.43" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="-11.43" y1="0.508" x2="-10.922" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="0" x2="-10.414" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-0.508" x2="-9.398" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="-0.508" x2="-9.398" y2="0" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="0" x2="-8.89" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="0.508" x2="-8.382" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-8.382" y1="1.524" x2="-8.89" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-1.016" x2="-11.43" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-11.43" y1="-2.032" x2="-10.922" y2="-2.032" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-2.032" x2="-10.414" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-2.54" x2="-10.414" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-2.032" x2="-8.382" y2="-2.032" width="0.2032" layer="21"/>
+<wire x1="-8.382" y1="-1.016" x2="-8.89" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-1.016" x2="-8.89" y2="-2.032" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-2.032" x2="-9.398" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="-2.54" x2="-9.398" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="-3.048" x2="-10.414" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-3.048" x2="-10.922" y2="-3.556" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-3.556" x2="-11.43" y2="-3.556" width="0.2032" layer="21"/>
+<wire x1="-11.43" y1="-4.572" x2="-10.922" y2="-4.572" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-4.572" x2="-10.414" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-5.08" x2="-10.414" y2="-5.588" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-5.588" x2="-9.398" y2="-5.588" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="-5.588" x2="-9.398" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="-5.08" x2="-8.89" y2="-4.572" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-4.572" x2="-8.382" y2="-4.572" width="0.2032" layer="21"/>
+<wire x1="-8.382" y1="-3.556" x2="-8.89" y2="-3.556" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-6.096" x2="-11.43" y2="-6.096" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="-7.112" x2="-11.43" y2="-7.112" width="0.2032" layer="21"/>
+<wire x1="-10.414" y1="-7.62" x2="-10.414" y2="-8.128" width="0.2032" layer="21"/>
+<wire x1="-9.398" y1="-8.128" x2="-9.398" y2="-7.62" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-7.112" x2="-8.382" y2="-7.112" width="0.2032" layer="21"/>
+<wire x1="-8.382" y1="-6.096" x2="-8.89" y2="-6.096" width="0.2032" layer="21"/>
+<pad name="ST" x="-9.906" y="6.096" drill="1.143" shape="octagon"/>
+<pad name="RX" x="-9.906" y="3.556" drill="1.143" shape="octagon"/>
+<pad name="TX" x="-9.906" y="1.016" drill="1.143" shape="octagon"/>
+<pad name="GND" x="-9.906" y="-1.524" drill="1.143" shape="octagon"/>
+<pad name="5V" x="-9.906" y="-4.064" drill="1.143" shape="octagon"/>
+<pad name="EN" x="-9.906" y="-6.604" drill="1.143" shape="octagon"/>
+<circle x="-3.9116" y="-6.223" radius="0.628871875" width="0.2032" layer="21"/>
+<text x="5.588" y="-0.254" size="1.27" layer="21">BLUETOOTH HC05 / 06</text>
+<text x="-7.874" y="5.588" size="1.27" layer="21">STATE</text>
+<text x="-7.874" y="3.048" size="1.27" layer="21">RX</text>
+<text x="-7.874" y="0.508" size="1.27" layer="21">TX</text>
+<text x="-7.874" y="-2.032" size="1.27" layer="21">GND</text>
+<text x="-7.874" y="-4.826" size="1.27" layer="21">5V</text>
+<text x="-7.874" y="-6.858" size="1.27" layer="21">EN</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="AB_BLUETOOTH_HC05" urn="urn:adsk.eagle:package:15785489/3" type="model">
+<description>&lt;p&gt;&lt;b&gt; HC 05 /06 Bluetooth Module
+
+&lt;p&gt;&lt;b&gt;Created by Aadesh Borate
+&lt;p&gt;&lt;b&gt;Features  :
+&lt;/b&gt;
+
+&lt;ul&gt; &lt;li&gt;&lt;P&gt; Input voltage  : 5V
+&lt;li&gt;&lt;P&gt;Operating voltage  : 5V
+&lt;li&gt;&lt;P&gt;Contineous output current : 30 mA
+&lt;li&gt;&lt;P&gt;Range : 100 metre
+&lt;li&gt;&lt;p&gt; Serial communication
+&lt;li&gt;&lt;p&gt;Follows IEEE 802.15.1 standardized protocol
+&lt;li&gt;&lt;p&gt;Uses Frequency-Hopping Spread spectrum (FHSS)
+
+&lt;/ul&gt;
+&lt;P&gt;&lt;b&gt;Buy this module at
+&lt;a href="https://robu.in/product/hc-05-6pin-bluetooth-module-with-button/"&gt; Robu.in&lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="BLUETOOTH_HC05"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="BLUETOOTH_HC05">
+<wire x1="-19.558" y1="7.874" x2="-19.558" y2="-9.906" width="0.2032" layer="94"/>
+<wire x1="-19.558" y1="-9.906" x2="18.288" y2="-9.906" width="0.2032" layer="94"/>
+<wire x1="18.288" y1="-9.906" x2="18.288" y2="7.874" width="0.2032" layer="94"/>
+<wire x1="18.288" y1="7.874" x2="-19.558" y2="7.874" width="0.2032" layer="94"/>
+<pin name="STATE" x="-22.098" y="5.334" length="short"/>
+<pin name="RX" x="-22.098" y="2.794" length="short"/>
+<pin name="TX" x="-22.098" y="0.254" length="short"/>
+<pin name="GND" x="-22.098" y="-2.286" length="short"/>
+<pin name="5V" x="-22.098" y="-4.826" length="short"/>
+<pin name="EN" x="-22.098" y="-7.366" length="short"/>
+<text x="-11.43" y="-0.762" size="1.778" layer="94">BLUETOOTH MODULE </text>
+<text x="-5.08" y="-3.81" size="1.778" layer="94">HC05 / 06</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BLUETOOTH_HC05">
+<description>&lt;p&gt;&lt;b&gt; HC 05 /06 Bluetooth Module
+
+&lt;p&gt;&lt;b&gt;Created by Aadesh Borate
+&lt;p&gt;&lt;b&gt;Features  :
+&lt;/b&gt;
+
+&lt;ul&gt; &lt;li&gt;&lt;P&gt; Input voltage  : 5V
+&lt;li&gt;&lt;P&gt;Operating voltage  : 5V
+&lt;li&gt;&lt;P&gt;Contineous output current : 30 mA
+&lt;li&gt;&lt;P&gt;Range : 100 metre
+&lt;li&gt;&lt;p&gt; Serial communication
+&lt;li&gt;&lt;p&gt;Follows IEEE 802.15.1 standardized protocol
+&lt;li&gt;&lt;p&gt;Uses Frequency-Hopping Spread spectrum (FHSS)
+
+&lt;/ul&gt;
+&lt;P&gt;&lt;b&gt;Buy this module at
+&lt;a href="https://robu.in/product/hc-05-6pin-bluetooth-module-with-button/"&gt; Robu.in&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BLUETOOTH_HC05" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLUETOOTH_HC05">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="STATE" pad="ST"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15785489/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

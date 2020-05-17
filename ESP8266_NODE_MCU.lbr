@@ -222,7 +222,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:package:15783912/6" type="model">
+<package3d name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:package:15783912/7" type="model">
 <description>&lt;p&gt;&lt;b&gt;ESP8266  NODE MCU ( OFFICIAL )
 
 &lt;p&gt;&lt;b&gt;Created by Aadesh Borate
@@ -357,7 +357,7 @@
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15783912/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15783912/7"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

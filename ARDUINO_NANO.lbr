@@ -473,7 +473,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="RESC3216X70N" urn="urn:adsk.eagle:package:14335440/13" type="model">
+<package3d name="RESC3216X70N" urn="urn:adsk.eagle:package:14335440/14" type="model">
 <description>&lt;p&gt;&lt;b&gt;Arduino nano
 
 &lt;p&gt;&lt;b&gt;Created by Aadesh Borate
@@ -606,7 +606,7 @@
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14335440/13"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14335440/14"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
